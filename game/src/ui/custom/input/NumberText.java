@@ -1,12 +1,13 @@
 package ui.custom.input;
 
 import model.Space;
+import service.EventEnum;
+import service.EventListener;
 
 import javax.swing.*;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 import java.awt.*;
-import java.util.EventListener;
 
 import static java.awt.Font.PLAIN;
 
@@ -53,5 +54,13 @@ public class NumberText extends JTextField implements EventListener {
             }
         });
 
+    }
+
+
+    @Override
+    public void update(EventEnum eventType) {
+        if (eventType.equals(EventEnum.CLEAR_SPACE) && (this.isEnabled())) {
+            this.setText("");
+        }
     }
 }
