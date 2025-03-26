@@ -80,9 +80,9 @@ public class Main {
             return;
         }
 
-        System.out.println("Informe a coluna que em que o número será inserido");
+        System.out.println("Informe a coluna que em que o número será inserido:");
         var col = runUntilGetValidNumber(0, BOARD_LIMIT - 1);
-        System.out.println("Informe a linha que em que o número será inserido");
+        System.out.println("Informe a linha que em que o número será inserido:");
         var row = runUntilGetValidNumber(0, BOARD_LIMIT - 1);
         System.out.printf("Informe o número que vai entrar na posição [%s,%s]\n", col, row);
         var value = runUntilGetValidNumber(1, BOARD_LIMIT);
@@ -97,9 +97,9 @@ public class Main {
             return;
         }
 
-        System.out.println("Informe a coluna que em que o número será inserido");
+        System.out.println("Informe a coluna que em que o número será removido:");
         var col = runUntilGetValidNumber(0, BOARD_LIMIT - 1);
-        System.out.println("Informe a linha que em que o número será inserido");
+        System.out.println("Informe a linha que em que o número será removido:");
         var row = runUntilGetValidNumber(0, BOARD_LIMIT - 1);
         if (!board.clearValue(col, row)) {
             System.out.printf("A posição [%s,%s] tem um valor fixo\n", col, row);
@@ -112,7 +112,7 @@ public class Main {
             return;
         }
 
-        var args = new Object[BOARD_LIMIT*BOARD_LIMIT];
+        var args = new Object[BOARD_LIMIT * BOARD_LIMIT];
         var argPos = 0;
         for (int i = 0; i < BOARD_LIMIT; i++) {
             for (var col : board.getSpaces()) {
@@ -162,13 +162,13 @@ public class Main {
         }
 
         if (board.gameIsFinished()) {
-            System.out.println("Parabéns você concluiu o jogo");
+            System.out.println("Parabéns você concluiu o jogo!");
             showCurrentGame();
             board = null;
         } else if (board.hasErrors()) {
-            System.out.println("Seu jogo conté, erros, verifique seu board e ajuste-o");
+            System.out.println("Seu jogo conté, erros, verifique seu board e ajuste-o.");
         } else {
-            System.out.println("Você ainda precisa preenhcer algum espaço");
+            System.out.println("Você ainda precisa preencher algum espaço!");
         }
     }
 
