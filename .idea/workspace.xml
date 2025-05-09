@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e801be1b-d5ed-4274-a7ad-8ae62e669590" name="Changes" comment=".class">
-      <change afterPath="$PROJECT_DIR$/game/src/UIMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/src/service/EventEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/src/service/EventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/src/service/NotifierService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/src/ui/custom/frame/MainFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/src/ui/custom/panel/MainPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/src/ui/custom/screen/MainScreen.java" afterDir="false" />
+    <list default="true" id="e801be1b-d5ed-4274-a7ad-8ae62e669590" name="Changes" comment="main panel, screen e frame concluidos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/src/ui/custom/input/NumberText.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/src/ui/custom/input/NumberText.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +60,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/LucasMartins/Documents/GitHub/Sudoku-Java",
+    "last_opened_file_path": "C:/Users/LucasMartins/Documents/GitHub/Bradesco-Java-Bootcamp/primeiros-passos",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -141,13 +133,22 @@
       <option name="project" value="LOCAL" />
       <updated>1743027857032</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="main panel, screen e frame concluidos">
+      <option name="closed" value="true" />
+      <created>1743030291476</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743030291476</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="board e spaces criados" />
     <MESSAGE value="Adicionando componentes para o interface grafica" />
     <MESSAGE value=".class" />
-    <option name="LAST_COMMIT_MESSAGE" value=".class" />
+    <MESSAGE value="main panel, screen e frame concluidos" />
+    <option name="LAST_COMMIT_MESSAGE" value="main panel, screen e frame concluidos" />
   </component>
 </project>
